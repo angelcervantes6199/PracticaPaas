@@ -1,3 +1,7 @@
+a{
+    font-style: none;
+}
+
 .sectionIframe {
     width: 1000vw;
     height: 100vh;
@@ -12,4 +16,15 @@
 .divIframe iframe {
     width: 100%;
     height: 100%;
+}
+
+.header{
+    width: 100VW;
+    min-height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
 }
